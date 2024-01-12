@@ -29,8 +29,8 @@ export default function ScrollableBlogPosts({ posts }: ScrollableBlogPostsProps)
     <Section>
       <Container>
         <Content>
-          <OverTitle>Mentor's</OverTitle>
-          <SectionTitle>Meet Our Mentors</SectionTitle>
+          <OverTitle>Mentor's & Organisers</OverTitle>
+          <SectionTitle>Meet Our Mentors & Organisers</SectionTitle>
         </Content>
       </Container>
 

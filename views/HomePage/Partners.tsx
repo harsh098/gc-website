@@ -13,6 +13,7 @@ const PARTNER_LOGOS = [
   'logoipsum-logo-5.svg',
   'logoipsum-logo-2.svg',
   'piyushji.svg',
+  'agile_guru.svg',
 
   
 ];

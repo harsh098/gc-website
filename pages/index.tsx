@@ -43,7 +43,7 @@ export default function Homepage({ posts }: InferGetStaticPropsType<typeof getSt
           <Cta />
           <FeaturesGallery />
           <Features />
-          <Testimonials />
+          {/* <Testimonials /> */}
           <ScrollableBlogPosts posts={posts} />
         </DarkerBackgroundContainer>
       </HomepageWrapper>
