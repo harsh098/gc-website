@@ -57,7 +57,7 @@ export default function SingleArticlePage(props: InferGetStaticPropsType<typeof 
   }
   const { title, description, date, tags, imageUrl } = data.getPostsDocument.data as NonNullableChildrenDeep<Posts>;
   const meta = { title, description, date: date, tags, imageUrl, author: '' };
-  const formattedDate = formatDate(new Date(date));
+  const formattedDate = formatDate(new Date('01-01-2024'));
   const absoluteImageUrl = imageUrl.replace(/\/+/, '/');
   return (
     <>
