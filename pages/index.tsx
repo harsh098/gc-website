@@ -20,7 +20,7 @@ export default function Homepage({ posts }: InferGetStaticPropsType<typeof getSt
         <title>{EnvVars.SITE_NAME}</title>
         <meta
           name="description"
-          content="Tempor nostrud velit fugiat nostrud duis incididunt Lorem deserunt est tempor aute dolor ad elit."
+          content="GrowIn Community: A hub for passionate DevOps engineers, Cloud Architects, and developers. We bridge the gap between theory and practical tech application, emphasizing mentorship and hands-on projects. Join us for real-world experience and professional growth in the dynamic field of technology."
         />
       </Head>
       <HomepageWrapper>

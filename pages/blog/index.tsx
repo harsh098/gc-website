@@ -10,7 +10,7 @@ export default function BlogIndexPage({ posts }: InferGetStaticPropsType<typeof 
   return (
     <Page
       title="GrowIn x CloudOps Meet-Up"
-      description="Culpa duis reprehenderit in ex amet cillum nulla do in enim commodo. Sunt ut excepteur et est aliqua anim ea excepteur fugiat voluptate. Fugiat exercitation dolore laboris do quis consectetur eiusmod tempor consequat."
+      description="GrowIn Community: A hub for passionate DevOps engineers, Cloud Architects, and developers. We bridge the gap between theory and practical tech application, emphasizing mentorship and hands-on projects. Join us for real-world experience and professional growth in the dynamic field of technology."
     >
       <CustomAutofitGrid>
         {posts.map((singlePost, idx) => (
