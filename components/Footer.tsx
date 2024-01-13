@@ -30,7 +30,7 @@ const footerItems: FooterItems = [
     items: [
       { title: 'About', href: '/blog' },
       { title: 'Newsletter', href: '/contact' },
-      { title: 'FAQ', href: '/faq' },
+      { title: 'FAQ', href: '/pricing' },
       { title: 'Contact Us', href: '/help-center' },
     ],
   },
@@ -64,7 +64,7 @@ export default function Footer() {
 
             <NextLink href="https://t.co/DtXtW5SbFb" passHref>
               <a>
-                <FacebookIcon size={50} round={true} />
+              <FacebookIcon size={50} round={true} />
               </a>
             </NextLink>
 
@@ -74,7 +74,7 @@ export default function Footer() {
               </a>
             </NextLink>
           </ShareBar>
-          <Copyright>&copy; Copyright 2023 GrowIn Design Team</Copyright>
+          <Copyright>&copy; Copyright 2024 GrowIn Community Design Team</Copyright>
         </BottomBar>
       </Container>
     </FooterWrapper>
