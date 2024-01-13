@@ -47,7 +47,7 @@ export default function NewsletterModal({ onClose }: NewsletterModalProps) {
                       <Title>Are you ready to join Our Meet-up and next Upcoming event & meetups</Title>
                       <Row>
                         
-                        <CustomButton as="button" type="submit" disabled={hasSignedUp}>
+                        <CustomButton href="https://lu.ma/gic-cloudops-delhi-meetup-2024" as="a">
                           Register!
                         </CustomButton>
                       </Row>

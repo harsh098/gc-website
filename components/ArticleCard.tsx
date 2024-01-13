@@ -21,7 +21,11 @@ export default function ArticleCard({ title, role, slug, imageUrl, description }
           </ImageContainer>
           <Content>
             <Title>{title}</Title>
+<<<<<<< HEAD
+            
+=======
             <Role>{role}</Role>
+>>>>>>> 66ec49d5620f7c792f8bfa72e35bc0e32e34751f
             <Description>{description}</Description>
           </Content>
         </HoverEffectContainer>
